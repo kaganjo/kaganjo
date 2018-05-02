@@ -46,3 +46,12 @@ for($x=0;$x<$clength;$x++)
 }
 
   }
+
+
+  foreach ($format_data as $list):
+    echo $list.'br/';
+  endforeach;
+  $separate_data=explode('.', $list);
+  foreach($separate_data as $letters):
+    echo '<h1>' $letters.'<h1>';
+  endforeach;
